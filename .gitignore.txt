@@ -1,0 +1,10 @@
+# Node modules (Angular)
+goodreadsUI/node_modules/
+
+# Build files
+goodreadsUI/dist/
+goodreadsAPI/bin/
+goodreadsAPI/obj/
+
+# Environment files
+goodreadsUI/src/environments/

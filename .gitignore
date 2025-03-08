@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/API/API/bin/Debug/net8.0
+/API/.vs/ProjectEvaluation/api.metadata.v9.bin
+/API/.vs/ProjectEvaluation/api.projects.v9.bin
+*.bin

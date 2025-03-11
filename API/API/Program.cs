@@ -152,7 +152,8 @@ static async Task SeedRolesAsync(IServiceProvider serviceProvider)
 
 // services scoped
 builder.Services.AddScoped<IAuthService, AuthServices>();
-builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddScoped<IAuthorService, AuthorService>();
+builder.Services.AddScoped<IBookService, BooksServices>();
 
 var app = builder.Build();
 

@@ -8,7 +8,7 @@ namespace API.Modals
         [Key]
         public Guid AuthorId { get; set; }
         [Required]
-        public Guid UserId { get; set; }
+        public string UserId { get; set; }
         public string? PenName { get; set; }
         public string? Bio { get; set; }
     }

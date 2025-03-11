@@ -15,6 +15,9 @@ namespace API.Data
 
         public DbSet<Authors> Authors { get; set; }
         public DbSet<AuthorSocialLinks> AuthorSocialLinks { get; set; }
+        public DbSet<Books> Books { get; set; }
+        public DbSet<Publishers> Publishers { get; set; }
+        public DbSet<Genre> Genre { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
